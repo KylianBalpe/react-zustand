@@ -1,12 +1,11 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useCounterStore } from "@/store/useCounterStore";
 
-export default function HomePage() {
-  const count = useCounterStore((state) => state.count);
-
+export default function FetchPage() {
+  const { count } = useCounterStore();
   return (
     <>
-      <h1 className="text-2xl font-bold text-foreground">Home Page</h1>
+      <h1 className="text-2xl font-bold text-foreground">Fetch Page</h1>
       <Card className="w-full max-w-xl">
         <CardHeader>
           <CardTitle>Counter</CardTitle>
