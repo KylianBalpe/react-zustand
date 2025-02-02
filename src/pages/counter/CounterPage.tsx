@@ -15,7 +15,7 @@ export default function CounterPage() {
 
   return (
     <>
-      <h1 className="text-2xl font-bold text-foreground">Counter Page</h1>
+      <h1 className="text-2xl font-bold">Counter Page</h1>
       <Card className="w-full max-w-xl">
         <CardHeader>
           <CardTitle>Counter</CardTitle>

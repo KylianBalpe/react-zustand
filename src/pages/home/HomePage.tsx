@@ -6,7 +6,7 @@ export default function HomePage() {
 
   return (
     <>
-      <h1 className="text-2xl font-bold text-foreground">Home Page</h1>
+      <h1 className="text-2xl font-bold">Home Page</h1>
       <Card className="w-full max-w-xl">
         <CardHeader>
           <CardTitle>Counter</CardTitle>
